@@ -3,3 +3,6 @@ torch
 python-docx
 PyMuPDF
 tqdm
+sentencepiece
+protobuf
+sacremoses

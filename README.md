@@ -26,10 +26,13 @@ pip install -r requirements.txt
 ```
 
 Les dépendances principales incluent :
-- `transformers` & `torch` (Moteur de traduction neuronal)
+- `transformers`, `torch`, `sentencepiece` & `protobuf` (Moteur de traduction neuronal)
 - `python-docx` (Manipulation des fichiers Word)
 - `PyMuPDF` (Manipulation des fichiers PDF)
 - `tqdm` (Barre de progression)
+- `sentencepiece` (Tokenisation)
+- `protobuf` (Protocol Buffer - Serialiser les données)
+- `sacremoses` (Nettoyeur et formatteur - Normalisation linguistiques)
 
 *(Note : Au premier lancement, l'outil téléchargera automatiquement les poids du modèle de traduction depuis HuggingFace).*
 
